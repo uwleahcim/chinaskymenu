@@ -41,7 +41,7 @@ html {
 
 .category-name {
   /* font-weight: bold; */
-  font-family: Mistral;
+  font-family: 'Mistral'; 
   font-size: 36px;
   color: darkred;
   text-align: center;
@@ -107,6 +107,7 @@ html {
 } 
 
 .item-container {
+  font-family: 'Calligraphic421BT-RomanB';
   display: grid;
   width: auto;
   grid-template-columns: 60px 1fr 60px;
