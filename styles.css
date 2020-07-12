@@ -2,6 +2,32 @@ html {
   scroll-behavior: smooth;
 }
 
+
+@font-face {
+  font-family: "Mistral";
+  src: url("./fonts/mistral.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/mistral.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/mistral.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/mistral.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/mistral.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/mistral.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/mistral.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Calligraphic421BT-RomanB";
+  src: url("./fonts/Calligraphic421BT.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Calligraphic421BT.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/Calligraphic421BT.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/Calligraphic421BT.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/Calligraphic421BT.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/Calligraphic421BT.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Calligraphic421BT.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
 .category-name-container {
   /* display: grid; */
   /* grid-gap: 20px; */
