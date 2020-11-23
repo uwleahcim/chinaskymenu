@@ -71,7 +71,10 @@ body {
   /* grid-template-columns: 1fr; */
   column-count: 1;  /* gap: 10px 40px; */
   column-gap: 20px;
-  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: max(10px, env(safe-area-inset-left));
+  padding-right: max(10px, env(safe-area-inset-right));
 }
 @media (min-width: 666px){
   #menu-container {
