@@ -71,6 +71,9 @@ body {
 
   flex-direction: column;
   /* gap: 10px 40px; */
+  -webkit-column-break-inside: avoid-column;
+  page-break-inside: avoid-column;
+  break-inside: avoid-column;  
 }
 .items-container-wrapper {
   /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
