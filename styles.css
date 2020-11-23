@@ -57,6 +57,9 @@ body {
 
 .item-container-wrapper {
   margin-bottom: 20px;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
 }
 
 .items-container {
