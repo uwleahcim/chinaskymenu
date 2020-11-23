@@ -121,7 +121,10 @@ body {
   grid-template-columns: 60px 1fr 60px;
   grid-template-rows: auto auto;
   grid-template-areas: "item-code item-name item-price" "item-code  item-description item-price";
-  break-inside: avoid-column;  
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+  
 }
 
 .item-code {
