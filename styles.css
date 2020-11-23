@@ -55,6 +55,10 @@ body {
 #menu-container {
 }
 
+.item-container-wrapper {
+  padding-bottom: 20px;
+}
+
 .items-container {
   display: flex;
   /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
