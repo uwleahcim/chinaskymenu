@@ -57,9 +57,9 @@ body {
 
 .item-container-wrapper {
   margin-bottom: 20px;
-  -webkit-column-break-inside: avoid;
-  page-break-inside: avoid;
-  break-inside: avoid;
+  -webkit-column-break-inside: avoid-column;
+  page-break-inside: avoid-column;
+  break-inside: avoid-column;
 }
 
 .items-container {
@@ -129,9 +129,9 @@ body {
   grid-template-columns: 60px 1fr 60px;
   grid-template-rows: auto auto;
   grid-template-areas: "item-code item-name item-price" "item-code  item-description item-price";
-  -webkit-column-break-inside: avoid;
-  page-break-inside: avoid;
-  break-inside: avoid;
+  -webkit-column-break-inside: avoid-column;
+  page-break-inside: avoid-column;
+  break-inside: avoid-column;
   
 }
 
