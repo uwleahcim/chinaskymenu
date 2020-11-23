@@ -78,13 +78,13 @@ body {
   /* grid-template-columns: 1fr; */
   column-count: 1;  /* gap: 10px 40px; */
   column-gap: 20px;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-left: max(10px, env(safe-area-inset-left));
   padding-right: max(10px, env(safe-area-inset-right));
 }
 
 .items-container-wrapper-column-buffer {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 
